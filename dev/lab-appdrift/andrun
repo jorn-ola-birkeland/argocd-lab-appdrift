@@ -1,0 +1,11 @@
+apiVersion: skiperator.kartverket.no/v1alpha1
+kind: Application
+metadata:
+  namespace: andrun
+  name: Runes_app
+spec:
+  image: nginxinc/nginx-unprivileged
+  port: 80
+  replicas: 2
+  ingresses:
+    - andrun.dev.skip.statkart.no

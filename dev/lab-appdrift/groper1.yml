@@ -1,0 +1,11 @@
+apiVersion: skiperator.kartverket.no/v1alpha1
+kind: Application
+metadata:
+  namespace: sample
+  name: Pers-app
+spec:
+  image: nginxinc/nginx-unprivileged
+  port: 80
+  replicas: 2
+  ingresses:
+    - groper.dev.skip.statkart.no

@@ -1,7 +1,7 @@
 apiVersion: skiperator.kartverket.no/v1alpha1
 kind: Application
 metadata:
-  name: Mortens-app
+  name: mortens-app
 spec:
   image: nginxinc/nginx-unprivileged
   port: 80

@@ -1,0 +1,16 @@
+# nonk8s
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: argocd-lab-appdrift
+  tags: [internal]
+  links:
+    - url: https://github.com/kartverket/argocd-lab-appdrift
+      title: argocd-lab-appdrift på GitHub
+spec:
+  type: ops
+  lifecycle: production
+  owner: matrikkel
+  system: matrikkel
+  dependsOn: []
+  providesApis: []
